@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+
+}
+
+.header{
+    height: 15%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header ul li{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.header ul li a{
+    color: white;
+    text-decoration: transparent;
+
+}
+
+.header ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.logo{
+    width: 60px;
+}
+
+.content{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.text {
+width: 40%;
+padding-left: 20px;
+}
+
+.text h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+}
+
+.text p{
+    margin: 20px 0px;
+    font-size: 18px;
+    color: white;
+}
+
+.image
+{
+  width:30%;
+}
+.image img{
+    width: 180px;
+}
+
+.text a{
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #000;
+    border: transparent;
+}
+
+.text a:hover{
+
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    
+
+}
+
+.icon{
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   
+}
+
+.icon img{
+    width: 40px; 
+    transition: 0.5s;
+}
+
+.icon img:hover{
+transform: scale(1.2);
+cursor: pointer;
+}
+
+
